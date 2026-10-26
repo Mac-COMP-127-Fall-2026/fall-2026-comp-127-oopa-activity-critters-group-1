@@ -1,7 +1,5 @@
-package edu.macalester;
+package edu.macalester.comp127.critters;
 
-import edu.macalester.comp127.critters.Critter;
-import edu.macalester.comp127.critters.Leg;
 import edu.macalester.graphics.Image;
 import edu.macalester.graphics.Rectangle;
 import java.awt.Color;
