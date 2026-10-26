@@ -12,13 +12,13 @@ public class BryCrit extends Critter {
     @Override
     protected void buildGraphics() {
 
-        Rectangle leftLeg = new Rectangle(21, 73.5, 12.5, 25.7);
+        Rectangle leftLeg = new Rectangle(40, 125, 12.5, 40);
         leftLeg.setStrokeColor(strokeColor);
         leftLeg.setFilled(true);
         leftLeg.setFillColor(fillColor);
         addLeg(new Leg(leftLeg, 4));
 
-        Rectangle rightLeg = new Rectangle(35, 73.5, 12.5, 25.7);
+        Rectangle rightLeg = new Rectangle(60, 125, 12.5, 40);
         rightLeg.setStrokeColor(strokeColor);
         rightLeg.setFilled(true);
         rightLeg.setFillColor(fillColor);
